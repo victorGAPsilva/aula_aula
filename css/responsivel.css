@@ -1,0 +1,95 @@
+.menu-toggle {
+    display: none;
+}
+
+    .linha-menu-top, .linha-menu-bottom{
+        width: 50px;
+        height:5px;
+        background-color: white;
+        margin-top: 10px;
+    }
+
+.menu-toggle:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+
+
+@media (maxwidth: 768px) {
+    .navbar-desktop{
+        display: none;
+        flex-direction: column;
+        transition: all 0.3s ease;
+        transform: translateY(-100%);
+    }
+    .links {
+        position: relative;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .logo {
+        width: 70px;
+    }
+    .texto {
+        font-size: 18px;
+    }
+    .git, .insta {
+        width: 40px;
+    }
+
+    
+.linha-menu-center{
+    width: 115%;
+    height: 4px;
+    display: block;
+    margin: 5px 0px;
+    background-color: aliceblue;
+}
+.menu-toggle {
+    display: none;
+}
+
+    .linha-menu-top, .linha-menu-bottom{
+        width: 50px;
+        height:5px;
+        background-color: white;
+        margin-top: 10px;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        background-color: white;
+        position: absolute;
+        right: 0%;
+        margin: 10px;
+    }
+    .menu-toggle, :checked, .navbar-desktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: blue;
+        transition: all 0.3s ease;
+        transform: translatey(0);
+    }
+    .menu-toggle:checked, .navbar-desktop{
+        transform: translateY(9px)rotate(-45);
+    }
+    .menu-toggle:checked, .navbar-desktop{
+        transform: translateY(9px)rotate(-45);
+    }
+    .menu-toggle:checked, .navbar-desktop{
+        display: none;
+    }
+}
