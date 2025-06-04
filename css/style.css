@@ -73,12 +73,16 @@ ul{
     transform: scale(1.2);
 }
 .texto{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
+    max-width: 600px;            
+    height: 400px;                
+    margin: 40px auto;            
+    padding: 40px;                
     color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: #f4f4f4 1px 1px 2px;
-    font-weight: bold;
-
+    font-family: 'Georgia', serif; 
+    font-size: 18px;
+    line-height: 1.8;            
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    border-radius: 6px;
+          
 }
+
