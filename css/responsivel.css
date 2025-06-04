@@ -1,5 +1,44 @@
 @media(max-width: 768px) {
-
+    .navbar-desktop{
+        display: none;
+    
+ }
+ .navbar-mobile{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    height: 60px;
+    margin: 0;
+    background-color: rgb(12, 12, 12);
+ }
+ .links{
+    display: none;
+    
+ }
+ .logo{
+    width: 60px;
+    position: relative;
+    left: 0;
+    border-radius: 100%;
+ }
+ .zap{
+    position: fixed;
+    bottom: 21vh;
+    right: 10px;
+    background-color: rgb(19, 228, 54);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 1000;
+ }
 }
 
 @media(max-width: 460px) {

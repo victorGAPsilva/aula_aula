@@ -85,4 +85,6 @@ ul{
     border-radius: 6px;
           
 }
-
+.navbar-mobile{
+    display: none;
+}
