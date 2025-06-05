@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color:var(--collor-background);
+    color: #6b6b6b;
+    margin: 0;
+    cursor: url("cursors/cursor.svg"), auto;
+}
+
+
+.links{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    left: 55%;
+    gap: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+.git{
+    width: 50px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+.git:hover{
+    transform: scale(1.2);
+}
+.insta{
+    width: 50px;
+    transition:all 0.3s ease;
+}
+.insta:hover{
+    transform: scale(1.2);
+}
+.texto{
+    max-width: 500px;            
+    height: 100%;                
+    margin: 40px auto;            
+    padding: 40px;                
+    color: #000000;
+    font-family: 'Georgia', serif; 
+    font-size: 18px;
+    line-height: 1.0;            
+    border-radius: 6px;
+          
+}
+.navbar-mobile{
+    display: none;
+}
+main{
+    display: block;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+.section-title{
+
+    margin: 2rem auto;
+   
+}

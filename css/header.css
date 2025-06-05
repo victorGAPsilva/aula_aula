@@ -1,0 +1,64 @@
+header{
+    background-color:black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: #4e4e4e 0px 4px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+.navbar-desktop{
+    display: flex;
+    flex: 1;
+}
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-decoration:none;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: #f4f4f4 1px 1px 2px;
+    transition: all 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color: #d1d1d1;
+    cursor: url("cursors/holder.svg"),auto;
+}
+.logo{
+    width: 90px;
+    position: relative;
+    left: 15px;
+    border-radius: 100%;
+    animation: fadein 1s ease-in forwards;
+}
+.logo:holver{
+    animation: pulse 1s infinite;
+}
+
+
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+.linha-menu-top, .linha-menu-bottom{
+    background-color: white;
+    height: 5px;
+    width: 50px;
+    margin-top: 10px;
+}
+.linha-menu-center{
+    background-color: gray;
+    height: 5px;
+}
+.menu-toggle {
+    display: none;
+}
